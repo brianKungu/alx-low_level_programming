@@ -17,15 +17,13 @@ char *_strcat(char *dest, char *src)
 	}
 
 	j = 0;
-	
+
 	while (src[j] != '\0') /*WHILE concatenate dest with src*/
 	{
 		dest[i] = src[j];
 		j++;  /*sum j*/
 		i++; /**sum i*/
 	}
-
 	dest[i] = '\0'; /*the terminating null byte*/
-
 	return (dest);
 }
