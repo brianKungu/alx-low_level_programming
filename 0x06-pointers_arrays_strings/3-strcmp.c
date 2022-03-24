@@ -6,7 +6,6 @@
  * @s2: second string to compare
  * Return: value
  */
-
 int _strcmp(char *s1, char *s2)
 {
 	int value;
